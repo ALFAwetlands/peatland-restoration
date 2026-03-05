@@ -3,8 +3,8 @@
 - text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
   href: /
 - text: Peatlands in the EU
-  href: /en/Peatlands in the EU/
-- text: Restoration Guidelines
-  href: /en/Restoration Guidelines/
+  href: /en/peatlands-EU/
+- text: Restoration guidelines
+  href: /en/restoration-guidelines/
 - text: Best practices
-  href: /en/Best practices/
+  href: /en/best-practices/
