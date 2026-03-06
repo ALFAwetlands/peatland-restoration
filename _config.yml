@@ -1,5 +1,5 @@
 # SITE SETTINGS
-title: European Wetland Restoration
+title: European peatland restoration
 author: ALFAwetlands
 baseurl: "/peatland-restoration"
 
@@ -24,6 +24,7 @@ rounded_corners: true
 logo: /assets/images/ ALFAWetlands_Logo_Transparent.png
 
 # BUILD SETTINGS
+repository: inbo/peatland-restoration
 markdown: kramdown
 plugins:
   - jekyll-feed
@@ -36,7 +37,19 @@ exclude:
 
 # FRONTMATTER DEFAULTS
 defaults:
-  - scope:
-      path: ""
+ - scope:
+      path: pages/nl
     values:
-      layout: default
+      lang: nl
+      permalink: /:basename/
+      background:
+        img: /assets/backgrounds/default.jpg
+        by: INBO
+  - scope:
+      path: pages/en
+    values:
+      lang: en
+      permalink: /en/:basename/
+      background:
+        img: /assets/backgrounds/default.jpg
+        by: INBO
