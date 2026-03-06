@@ -21,7 +21,7 @@ colors:
   background: "#F6FFF8" # Mint Cream
 font_serif: true
 rounded_corners: true
-logo: /assets/images/ ALFAWetlands_Logo_Transparent.png
+logo: /assets/images/ALFAWetlands_Logo_Transparent.png
 
 # BUILD SETTINGS
 repository: inbo/peatland-restoration
