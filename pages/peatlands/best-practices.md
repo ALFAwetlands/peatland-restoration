@@ -2,7 +2,7 @@
 title: Best practices
 description: 
 background: 
-  img: /assets/backgrounds/121308_Sluis_Rauw_Mol_Buitengoor.jpg
+  img: /assets/backgrounds/Vilda_143944_Buitengoor_Yves_Adams_A4_74822.jpg
   by: Yves Adams, Vilda
 ---
 

@@ -2,7 +2,7 @@
 title: Restoration guidelines
 description: 
 background: 
-  img: /assets/backgrounds/121308_Sluis_Rauw_Mol_Buitengoor.jpg
+  img: /assets/backgrounds/Vilda_93935_Natuurreservaat_De_Teut_Yves_Adams_A4_74821.jpg
   by: Yves Adams, Vilda
 ---
 

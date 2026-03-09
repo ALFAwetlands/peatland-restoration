@@ -1,13 +1,7 @@
 # SITE SETTINGS
 title: European peatland restoration
 author: ALFAwetlands
-baseurl: "/peatland-restoration"
-
-# SOCIAL PROFILES
-social:
-  bluesky: https://bsky.app/profile/alfawetlands.bsky.social
-  facebook: https://www.facebook.com/ALFAwetlands  
-  linkedin: https://www.linkedin.com/company/alfawetlands/
+baseurl: "/restoration-guidelines"
 
 # THEME SETTINGS
 remote_theme: peterdesmet/petridish@3.1
@@ -21,7 +15,7 @@ rounded_corners: true
 logo: /assets/images/ALFAWetlands_Logo_Transparent.png
 
 # BUILD SETTINGS
-repository: ALFAwetlands/peatland-restoration
+repository: ALFAwetlands/restoration-guidelines
 markdown: kramdown
 plugins:
   - jekyll-feed
