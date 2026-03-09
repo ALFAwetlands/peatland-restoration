@@ -1,0 +1,10 @@
+# Links listed below will be included in your site's navbar (navigation at the top)
+
+- text: Peatlands
+  menu:
+  - text: Peatlands in the EU
+    href: /peatlands/about/
+  - text: Restoration guidelines
+    href: /peatlands/restoration-guidelines/
+  - text: Best practices
+    href: /peatlands/best-practices/
