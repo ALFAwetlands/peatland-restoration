@@ -24,7 +24,7 @@ rounded_corners: true
 logo: /assets/images/ALFAWetlands_Logo_Transparent.png
 
 # BUILD SETTINGS
-repository: /peatland-restoration
+repository: ALFAwetlands/peatland-restoration
 markdown: kramdown
 plugins:
   - jekyll-feed
