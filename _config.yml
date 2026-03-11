@@ -12,7 +12,7 @@ colors:
   footer: "#6B9080" # Jungle teal
 font_serif: false
 rounded_corners: true
-logo: /assets/images/ALFAWetlands_Logo_Transparent.png
+logo: /assets/images/created_logo.png
 
 # BUILD SETTINGS
 repository: ALFAwetlands/restoration-guidelines
@@ -33,7 +33,3 @@ defaults:
     values:
       toc: true
       permalink: /peatlands/:basename/
-  - scope:
-      path: pages/about
-    values:
-      permalink: /:basename/
