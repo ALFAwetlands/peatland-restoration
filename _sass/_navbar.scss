@@ -6,7 +6,7 @@
     font-weight: bold;
     color: #617c70;
     img {
-      width: 60px;  // adjust to your preferred size
+      width: 100px;  // adjust to your preferred size
       height: auto;  // keeps the aspect ratio correct
     }
   }
@@ -19,6 +19,14 @@
     }
   }
 
+    .dropdown-item {
+      color: #617c70;
+    &:hover {
+      color: darken(#617c70, 15%);
+      background-color: #eaf4f4; // azure mist on hover
+    }
+  }
+  
   .navbar-toggler {
     font-size: 90%;
     padding: 10px;
