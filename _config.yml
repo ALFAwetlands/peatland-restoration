@@ -2,11 +2,10 @@
 title: Peatland restoration guidelines
 author: ALFAwetlands
 baseurl: "/restoration-guidelines"
-github_edit: false
 
 # THEME SETTINGS
 remote_theme: peterdesmet/petridish@3.1
-github_edit: gh-pages
+github_edit: false
 colors:
   links: "#0F71B8"  # Blue
   banner: "#A4C3B2" # Muted teal
