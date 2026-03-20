@@ -20,16 +20,23 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 exclude:
-  - README.md
+ - README.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - petridish-3.1/
+  - petridish.zip
 
 # FRONTMATTER DEFAULTS
 defaults:
   - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
       path: pages/peatlands
     values:
       toc: true
-      permalink: /peatlands/:basename/
+      permalink: pages/peatlands

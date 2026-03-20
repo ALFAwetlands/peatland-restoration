@@ -1,15 +1,38 @@
+// Navbar
+
 .navbar {
   background-color: #F6FFF8!important;
   border-bottom: 1px solid $gray-200;
   padding-top: 0rem;    // ← reduce top space
-  padding-bottom: 0rem; // ← reduce bottom space
+  padding-bottom: 0rem;
 
   .navbar-brand {
     font-weight: bold;
     color: #617c70;
     img {
-      width: auto;  // adjust to your preferred size
-      height: 80px;  // keeps the aspect ratio correct
+      height: 100px;
+      width: auto;
+    }
+  }
+
+  // Nav links color
+  .nav-link {
+    color: #617c70 !important;
+  &:hover {
+    color: darken(#617c70, 15%) !important;
+  }
+}
+
+  .nav-link.active {
+    color: #617c70 !important;
+}
+
+  // Dropdown items color
+  .dropdown-item {
+    color: #617c70;
+    &:hover {
+      color: darken(#617c70, 15%);
+      background-color: #e8f0eb; // subtle mint tint on hover
     }
   }
 
@@ -18,14 +41,6 @@
     .dropdown-menu {
       border: none;
       padding-top: 0;
-    }
-  }
-
-    .dropdown-item {
-      color: #617c70;
-    &:hover {
-      color: darken(#617c70, 15%);
-      background-color: #eaf4f4; // azure mist on hover
     }
   }
 
